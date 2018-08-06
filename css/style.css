@@ -1,0 +1,25 @@
+@media (min-width:360px) and (max-width: 640px) {
+ .para-div{
+     color: darkcyan !important;
+     font-size: 40px !important;
+ }
+}
+@media (min-width:640px) and (max-width: 768px) {
+
+}
+
+
+
+body{
+    background-image: url('../images/image1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%; 
+}
+.heading{
+    margin-left: 510px;
+}
+
+
+
+
