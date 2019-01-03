@@ -48,21 +48,32 @@
     }
 } */
 
-
-
-.heading{
-    margin-left: 510px;
+.heading {
+  margin-left: 510px;
 }
-.search-field{
-    width: 500px !important;
-    margin-left: 350px;
-    
+.search-field {
+  width: 500px !important;
+  margin-left: 350px;
 }
-.form-div{
+.form-div {
 }
 /* .margin-img{
     margin-left: 50px;
 } */
-.user-name{
-    color: aquamarine;
+.user-name {
+  color: aquamarine;
+}
+
+body,
+html {
+  font-family: 'Varela Round', sans-serif !important;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden !important;
+}
+
+.git-finder {
+  font-family: 'Libre Baskerville', serif !important;
 }
