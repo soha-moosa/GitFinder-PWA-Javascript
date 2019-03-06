@@ -1,88 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- links -->
-    <link rel="stylesheet" href="../css/searchForm.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-        <link
-        href="https://fonts.googleapis.com/css?family=Libre+Baskerville"
-        rel="stylesheet"
-      />
+    <link rel="stylesheet" href="../css/searchForm.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+      integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Baskerville"
+      rel="stylesheet"
+    />
     <title>Github - Followers</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <section class="py-3 text-white bg-primary text-center">
+      <h1>
+        <a
+          href="./index.html"
+          class="git-finder text-white"
+          style="text-decoration:none;"
+          ><i class="fab fa-github-alt"></i> Git Finder</a
+        >
+      </h1>
+    </section>
 
-    <section class="py-3 text-white bg-primary text-center"><h4><a href="./index.html" class="git-finder text-white" style="text-decoration:none;">Git Finder</a></h4></section>
-
-
-
-    <br>
-    <br>
+    <br />
+    <br />
     <section class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-6 col-sm-12">
-                <form id="loginForm">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="searchUsers" placeholder="Username" aria-label="User Name" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary ml-2" type="submit" id="searchBtn">Search</button>
-                        </div>
-                    </div>
-                </form>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-6 col-sm-12">
+          <form id="loginForm">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="searchUsers"
+                placeholder="Username"
+                aria-label="User Name"
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append">
+                <button
+                  class="btn btn-primary ml-2"
+                  type="submit"
+                  id="searchBtn"
+                >
+                  Search
+                </button>
+              </div>
             </div>
+          </form>
         </div>
+      </div>
     </section>
-    <br>
-    <br>
+    <br />
+    <br />
     <section class="conainer">
-        <div class="row justify-content-center" id="container">
-        </div>
-        <p class="lead text-danger text-center mt-5 text-danger" id="error_log"></p>
-        <br>
+      <div class="row justify-content-center" id="container"></div>
+      <p
+        class="lead text-danger text-center mt-5 text-danger"
+        id="error_log"
+      ></p>
+      <br />
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script type="text/javascript" src="./js/searchForm.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-        crossorigin="anonymous"></script>
-
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+      integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
