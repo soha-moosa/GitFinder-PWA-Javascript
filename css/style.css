@@ -5,23 +5,20 @@
   padding: 0;
   box-sizing: inherit;
 }
-/* html,body{
-    height: 100%;
-} */
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 body {
-    margin: 0 0 50px; /* bottom = footer height */
+  margin: 0 0 50px;
 }
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
 }
 
 body {
