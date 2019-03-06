@@ -28,6 +28,7 @@
       rel="stylesheet"
     />
     <link rel="manifest" href="./manifest.json" />
+    <link rel="shortcut icon" href="./images/images.png" type="image/x-icon">
     <title>Github - Followers</title>
   </head>
 
@@ -65,7 +66,13 @@
       <footer class="footer bg-primary text-light" id="footer">
         <div class="ml-auto text-right mt-3">
           &copy; All rights reserved.
-          <a target="_blank" href="https://github.com/soha-moosa" class="text-light text-right">Soha Moosa</a> &nbsp;
+          <a
+            target="_blank"
+            href="https://github.com/soha-moosa"
+            class="text-light text-right"
+            >Soha Moosa</a
+          >
+          &nbsp;
         </div>
       </footer>
     </div>
@@ -86,13 +93,13 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      //   if ('serviceWorker' in navigator) {
-      //     navigator.serviceWorker
-      //       .register('./serviceWorker.js')
-      //       .then(() => console.log('Service worker registered'))
-      //       .catch(() => console.log('Some error occured'));
-      //   }
-      //
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker
+            .register('./serviceWorker.js')
+            .then(() => console.log('Service worker registered'))
+            .catch(() => console.log('Some error occured'));
+        }
+      
     </script>
   </body>
 </html>
